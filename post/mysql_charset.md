@@ -20,10 +20,10 @@
 
   另外一个字符编码表示客户端到服务器的编码，通过set names charset, 这个语句会设置变量character_set_results，character_set_connection，character_set_client。
 
-  ## 总结
+## 总结
 
     遇到不理解的问题要多思考，分析考虑各种可能性，最后再去搜索答案。
 
- ## 参考资料
+## 参考资料
 
   [Mysql文档](http://dev.mysql.com/doc/refman/5.0/en/globalization.html)
