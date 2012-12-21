@@ -16,10 +16,14 @@
 
   mysql字符集包括2个概念，character_set(字符集编码) 和 collation(字符排序规则)， 
 
-  字符集可以在不同的层次内设置， server -> database -> table -> column, 字符编码表示存储数据使用的规则，这些字符集都表示mysql服务器存储数据的编码依据，
+  字符集可以在不同的层次内设置， server -> database -> table -> column -> character String(例如select语句中的字符常量), 字符编码表示存储数据使用的规则，这些字符集都表示mysql服务器存储数据的编码依据，
 
   另外一个字符编码表示客户端到服务器的编码，通过set names charset, 这个语句会设置变量character_set_results，character_set_connection，character_set_client。
 
   ## 总结
 
     遇到不理解的问题要多思考，分析考虑各种可能性，最后再去搜索答案。
+
+ ## 参考资料
+
+    [Mysql文档](http://dev.mysql.com/doc/refman/5.0/en/globalization.html)
