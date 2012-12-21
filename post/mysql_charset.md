@@ -26,4 +26,4 @@
 
  ## 参考资料
 
-    [Mysql文档](http://dev.mysql.com/doc/refman/5.0/en/globalization.html)
+  [Mysql文档](http://dev.mysql.com/doc/refman/5.0/en/globalization.html)
